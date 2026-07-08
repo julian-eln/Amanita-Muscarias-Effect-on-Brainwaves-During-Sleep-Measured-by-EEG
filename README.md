@@ -1,9 +1,8 @@
 # Amanita-Muscaria-s-Effect-on-Brainwaves-During-Sleep-Measured-by-EEG
 First known human EEG done while under the influence of Amanita Muscaria
 
-Amanita Muscaria's Effect on Brainwaves During Sleep, Measured by EEG
 
-##What we are testing:
+## What we are testing:
 EEGs are devices that collect brainwave data from the wearer. With the advent of consumer EEGs, data collection has become significantly more accessible. Amanita muscaria is an iconic mushroom that causes intoxication primarily through two molecules: ibotenic acid and muscimol. Muscimol, in particular, is considered the active compound.
 Despite its history, studies and data regarding Amanita muscaria's effect on brainwaves are sparse. This appears to be the first human EEG recorded during intoxication with Amanita muscaria. It remains unclear precisely how the mushroom induces hallucinations, as it does not act on classical psychedelic receptors.
 Most intoxicants influence specific brainwave bands, and these effects vary across drug classes, including hypnotics, GABAergic agents, dissociatives, and classical psychedelics (Siegel, 2024). This analysis examines two administrations of an Amanita extract. Collecting this data provides a starting point for understanding when Amanita muscaria kicks in, peaks, and wears off, as well as how it affects specific brainwave bands and which cognitive effects are associated with those changes
