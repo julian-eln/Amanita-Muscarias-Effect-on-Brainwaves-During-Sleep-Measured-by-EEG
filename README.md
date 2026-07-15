@@ -20,9 +20,8 @@ The test consisted of eating the full chocolate bar and lying down in bed. Conce
 ## Results:
 
 ### Absolute band power (Treatment 1 vs Baseline 1)
-The most noticeable thing when comparing baseline 1 and treatment 1. There is an immediate drop in all waves (with periodic spikes of sigma) throughout the experiment, while in baseline 1, there seem to be dips (likely correlated with transitions in sleep) and then spikes of many different waves, but delta (associated with sleep), specifically, while dominating in both, was trending lower in Treatment 1 and trending higher in baseline. This is very different from most GABAergic drugs studied, and even from dissociative studies with nitrous oxide (in some cases) Foster, B. L., & Liley, D. T. (2011). Yamamura, T., Fukuda, M., & Takeya, H., et al. (1981) show similar effects.   
+Seemingly from my data and a chart I made (Treatment 1) seems to show a kick in around 45 minutes in. This also means I most likely did not catch the peak of the effects as it did not show a clear up trend or plateau in the treatment.
 
-Even these studies, however, usually show some fluctuation or an increase in another wave (here, sigma did fluctuate but decreased overall); delta only decreases in REM sleep, and even then gamma fluctuates.  Amanita produced a noticeably higher DTABR (sedation ratio) than the baseline condition, suggesting a stronger sedative effect.
 
 <img width="975" height="725" alt="image" src="https://github.com/user-attachments/assets/afb78a97-586e-43e4-8b29-3b2dad9865af" />
 
