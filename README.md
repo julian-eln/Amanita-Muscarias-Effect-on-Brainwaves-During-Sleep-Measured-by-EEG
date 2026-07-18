@@ -28,9 +28,9 @@ Even these studies, however, usually show some fluctuation or an increase in ano
 
 (Baseline 1)
 
-<img width="938" height="580" alt="image" src="https://github.com/user-attachments/assets/032ecf80-8a3a-4364-9d48-875c4951dfa4" />
 
 
+<img width="975" height="602" alt="image" src="https://github.com/user-attachments/assets/34ec00bb-dfe5-4c56-adb4-862818a61c4c" />
 
 (Treatment 1)
 
@@ -41,7 +41,7 @@ The next major measurement was relative spectral power (how much of the total po
 <img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/56143a30-ab46-4063-97f4-731a233ec2d5" />
 
 (Baseline 2)
-<img width="975" height="663" alt="image" src="https://github.com/user-attachments/assets/987e8cad-42ad-4124-a3a0-26cf0eb363ad" />
+<img width="975" height="673" alt="image" src="https://github.com/user-attachments/assets/9d8ce4cd-d302-4f9b-a129-576c149865e3" />
 
 (Treatment 2)
 ### Topographic maps
@@ -452,9 +452,7 @@ Before running comparisons, I tested both the absolute and relative band power t
 
 The next analysis compared the treatment to the control through bar charts. Bar graph 1 shows the absolute band power in dB: every band was slightly lower in the treatment than the control, but none of the individual bands differed by much. The clearest differences were in the ratios — DTABR (sedation) was higher in the treatment, while SMR was higher in the control. Bar graph 2 shows relative power. The two parametric bands were Theta and Alpha: Alpha was significantly lower in the treatment (about 3.9% vs 5.1%), while Theta was slightly higher in the treatment and not significant. The non-parametric bands (Delta, Beta, Gamma, Sigma) were handled with Kruskal-Wallis: Delta was higher in the treatment (about 69% vs 63%) but not significant, Sigma was essentially equal (about 2.0% vs 1.7%), and Beta and Gamma ranked higher in the control.
 
-![Corrected relative band power: Amanita vs baseline](corrected_results.png)
 
-*(Corrected relative band power, independently reproduced from the corrected data. Alpha is significantly lower under Amanita, p = .023; Delta trends higher but is not significant, p = .109; Sigma is unchanged, p = .430; Beta and Gamma rank higher in the control, p = .039 / .036, but are fragile — see the statistical-tests section.)*
 
  <img width="602" height="980" alt="image" src="https://github.com/user-attachments/assets/11def5d5-eaf9-4d78-8c1b-3c2f27dce1ce" />
 
@@ -493,9 +491,6 @@ The next analysis compared the treatment to the control through bar charts. Bar 
 
 I did statistical tests to determine significance using t-tests for parametric values and Kruskal-Wallis for non-parametric. For the absolute (dB) values in Independent samples 1, none of the individual bands reached significance: Delta (p = .649), Theta (p = .666), Alpha (p = .227), Beta (p = .215), Gamma (p = .061, a non-significant trend toward higher gamma in the control), and Sigma (p = .722) were all non-significant. The absolute ratios DTABR and SMR did reach significance (DTABR p = .019, SMR p = .023), but these are ratios computed from decibel values rather than linear power.  For the relative values, Alpha was significantly lower in the treatment (5.1% control vs 3.9% treatment; t = 2.37, p = .023, 95% CI of the difference 0.17-2.14), while Theta was not significant (12.1% vs 13.4%, p = .338). The Kruskal-Wallis tests on the non-parametric bands: Delta was not significant (control 63.3% vs treatment 69.4%, χ² = 2.57, p = .109); Sigma was not significant (1.7% vs 2.0%, χ² = 0.62, p = .430); Beta ranked significantly higher in the control (χ² = 4.27, p = .039), although the group means were nearly identical (6.2% vs 6.5%); and Gamma ranked higher in the control (11.6% vs 4.8%, χ² = 4.38, p = .036), though Muse gamma is heavily EMG/line-noise contaminated and should be read cautiously. The three significant workbook results — Alpha (t p = .023), Beta (KW p = .039), and Gamma (KW p = .036) — were stress-tested against the raw recordings using per-epoch-relative-then-average aggregation. Recomputing relative power from raw under 24 processing pipelines (epoch length 2/4/8 s × four artifact thresholds × mean/median aggregation), none of the three bands is significant: Alpha ≈ 7.1% vs 7.0% (t p = .949), Beta ≈ 8.4% vs 8.2% (t p = .927), Gamma ≈ 5.5% vs 5.0% (t p = .670). These effects are therefore specific to the dB-averaging aggregation used in the workbook and do not appear when standard aggregation is applied to the same raw signal. The bias introduced by the dB method is not uniform: for Gamma, it shifts the treatment estimate by −38% and the baseline estimate by +41% (in opposite directions), which explains why a group difference appears in the workbook but not in the from-raw analysis. See the Methods section and the Limitations section for further discussion of the aggregation choice.
 
-![Alpha robustness check](robustness_alpha.png)
-
-*(Each teal point is one of 24 from-raw pipelines; all sit on the equality line at ~7–8% for both nights. The orange star is the workbook's mean-dB aggregation — the only point showing a treatment/baseline gap, and the source of the p = .023 result.)*
 
 <img width="825" height="965" alt="image" src="https://github.com/user-attachments/assets/557a1bd2-4db3-488e-8c36-6c113232644d" />
 
