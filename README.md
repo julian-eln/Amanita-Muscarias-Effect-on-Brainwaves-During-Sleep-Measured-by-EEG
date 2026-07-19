@@ -26,10 +26,9 @@ Even these studies, however, usually show some fluctuation or an increase in ano
 
 
 <img width="975" height="725" alt="image" src="https://github.com/user-attachments/assets/afb78a97-586e-43e4-8b29-3b2dad9865af" />
-
 (Baseline 1)
 
-<img width="938" height="580" alt="image" src="https://github.com/user-attachments/assets/032ecf80-8a3a-4364-9d48-875c4951dfa4" />
+<img width="975" height="602" alt="image" src="https://github.com/user-attachments/assets/34ec00bb-dfe5-4c56-adb4-862818a61c4c" />
 
 
 
@@ -42,8 +41,7 @@ The next major measurement was relative spectral power (how much of the total po
 <img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/56143a30-ab46-4063-97f4-731a233ec2d5" />
 
 (Baseline 2)
-<img width="975" height="663" alt="image" src="https://github.com/user-attachments/assets/987e8cad-42ad-4124-a3a0-26cf0eb363ad" />
-
+<img width="975" height="673" alt="image" src="https://github.com/user-attachments/assets/9d8ce4cd-d302-4f9b-a129-576c149865e3" />
 (Treatment 2)
 ### Topographic maps
 
