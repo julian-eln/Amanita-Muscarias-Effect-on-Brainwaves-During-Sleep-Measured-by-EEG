@@ -41,7 +41,7 @@ The next major measurement was relative spectral power (how much of the total po
 <img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/56143a30-ab46-4063-97f4-731a233ec2d5" />
 
 (Baseline 2)
-<img width="975" height="673" alt="image" src="https://github.com/user-attachments/assets/9d8ce4cd-d302-4f9b-a129-576c149865e3" />
+<img width="975" height="602" alt="image" src="https://github.com/user-attachments/assets/a47017fe-3c5c-469e-baf6-1f29db43b893" />
 
 (Treatment 2)
 ### Topographic maps
