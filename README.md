@@ -392,7 +392,6 @@ After looking at the raw data, I ran both the relative band power (baseline and 
 
 The next analysis compared the treatment to the control through bar charts. Bar graph 1 shows the absolute band power in dB: every band was slightly lower in the treatment than the control, but none of the individual bands differed by much. The clearest differences were in the ratios — DTABR (sedation) was higher in the treatment, while SMR was higher in the control. Bar graph 2 shows relative power (corrected). The two parametric bands were Theta and Alpha: Alpha was significantly lower in the treatment (about 3.9% vs 5.1%), while Theta was slightly higher in the treatment and not significant. The non-parametric bands (Gamma, Sigma) were handled with Kruskal-Wallis alongside Delta and Beta: Delta was higher in the treatment (about 69% vs 63%) but not significant, Sigma was essentially equal (about 2.0% vs 1.7%), and Beta and Gamma ranked higher in the control.
 
-![ relative band power: Amanita vs baseline](corrected_results.png)
 
 
  <img width="602" height="980" alt="image" src="https://github.com/user-attachments/assets/11def5d5-eaf9-4d78-8c1b-3c2f27dce1ce" />
@@ -436,9 +435,6 @@ For the relative values, Alpha was significantly lower in the treatment (5.1% co
 
 **Robustness note (aggregation-sensitive effects).** The three significant workbook results — Alpha (t p = .023), Beta (KW p = .039), and Gamma (KW p = .036) — were stress-tested against the raw recordings using per-epoch-relative-then-average aggregation. Recomputing relative power from raw under 24 processing pipelines (epoch length 2/4/8 s × four artifact thresholds × mean/median aggregation), none of the three bands is significant: Alpha ≈ 7.1% vs 7.0% (t p = .949), Beta ≈ 8.4% vs 8.2% (t p = .927), Gamma ≈ 5.5% vs 5.0% (t p = .670). These effects are therefore specific to the dB-averaging aggregation used in the workbook and do not appear when standard aggregation is applied to the same raw signal. The bias introduced by the dB method is not uniform: for Gamma, it shifts the treatment estimate by −38% and the baseline estimate by +41% (in opposite directions), which explains why a group difference appears in the workbook but not in the from-raw analysis. See the Methods section and the Limitations section for further discussion of the aggregation choice.
 
-![Alpha robustness check](robustness_alpha.png)
-
-*(Each teal point is one of 24 from-raw pipelines; all sit on the equality line at ~7–8% for both nights. The orange star is the workbook's mean-dB aggregation — the only point showing a treatment/baseline gap, and the source of the p = .023 result.)*
 
 <img width="825" height="965" alt="image" src="https://github.com/user-attachments/assets/557a1bd2-4db3-488e-8c36-6c113232644d" />
 
