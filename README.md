@@ -183,20 +183,6 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
 
 
 
-<img width="975" height="800" alt="image" src="https://github.com/user-attachments/assets/56eef6b9-8f8e-40e6-9e7f-957dfa9da59a" />
- 
-
- <img width="975" height="696" alt="image" src="https://github.com/user-attachments/assets/41bead61-5125-4074-8929-f8dec70429c7" />
-
-(theta topograph baseline 2 )
-
- <img width="975" height="740" alt="image" src="https://github.com/user-attachments/assets/35e2ac71-4bd9-4c64-be65-0a2bc68358bb" />
-
-
- <img width="975" height="796" alt="image" src="https://github.com/user-attachments/assets/4994efb7-f3cf-41a1-8ed7-84369c2138e8" />
-
-(Alpha topograph 2 baseline)
-
 
 
 <img width="975" height="808" alt="image" src="https://github.com/user-attachments/assets/804c5d14-f3e0-4ce1-8e4f-8583509528a1" />
@@ -222,17 +208,6 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
  
 (Sigma topograph baseline 2)
 
-<img width="975" height="919" alt="image" src="https://github.com/user-attachments/assets/7b905b85-acc7-4d99-bd1f-fe3c0dd1b4f8" />
-
-<img width="975" height="800" alt="image" src="https://github.com/user-attachments/assets/ec257228-f1f1-48c7-8b34-e6c841d797c2" />
-
- (Beta topography Baseline 2) 
-
- <img width="975" height="798" alt="image" src="https://github.com/user-attachments/assets/986b3554-3cd7-4364-a07d-400b31acdf07" />
-
-<img width="975" height="921" alt="image" src="https://github.com/user-attachments/assets/805ef195-b820-43ea-8f4e-e300f5568d9a" />
-
- (Gamma Topograph Baseline 2)
 
 
 
@@ -265,34 +240,6 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
 (Delta Topograph Treatment 1)
  
 
- <img width="975" height="644" alt="image" src="https://github.com/user-attachments/assets/2a55c0f0-0b68-4e3d-add7-78fc94decfa4" />
-
-<img width="952" height="980" alt="image" src="https://github.com/user-attachments/assets/b256a411-08a4-4869-b8d0-a6c524728d72" />
-
-(Theta topograph Treatment 1) 
-
-
-
-
-<img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/0a82fed8-1936-4b60-9ddc-a08a9d1cad3f" />
-
-
-<img width="948" height="980" alt="image" src="https://github.com/user-attachments/assets/3bea4a7c-0eec-41ce-9fd7-5da77b850d4e" />
-
-(Alpha topograph  Treatment 1)
-
- <img width="892" height="900" alt="image" src="https://github.com/user-attachments/assets/2861d7f0-d8a1-427c-84d2-3152e5e2d91b" />
-
-
- <img width="942" height="980" alt="image" src="https://github.com/user-attachments/assets/2fb50599-bc42-47cd-aee0-e9bec2c89acc" />
-
-(Beta Topograph Treatment 1) 
-
- <img width="791" height="900" alt="image" src="https://github.com/user-attachments/assets/2acafbdd-d01e-4ed4-95db-954c42987bc9" />
-
-<img width="958" height="980" alt="image" src="https://github.com/user-attachments/assets/5788edf5-4aed-4ce7-beca-2b699534538c" />
-
-(Gamma Topograph Treatment 1 ) 
 
 <img width="975" height="679" alt="image" src="https://github.com/user-attachments/assets/c20e7513-8ede-49a6-9d0b-2b0231eaec03" />
 
@@ -308,38 +255,12 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
   
 (Delta topography Treatment 2)
 
- <img width="975" height="552" alt="image" src="https://github.com/user-attachments/assets/dca21324-5e9f-40f2-8ebb-22f21f72b2f1" />
-
-
- <img width="958" height="980" alt="image" src="https://github.com/user-attachments/assets/8b6f76ca-867e-45cd-9a72-124849e03cbb" />
-
-(Theta Topograph Treatment 2)
-
- <img width="947" height="688" alt="image" src="https://github.com/user-attachments/assets/eca45772-19ef-47ce-a201-92605fbda06c" />
-
-<img width="798" height="835" alt="image" src="https://github.com/user-attachments/assets/e5935d44-6f4e-4f56-9f94-648916c39c07" />
-
-  
-(Alpha Topograph 2)
- 
-
- <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/81de7bb1-102d-4750-8d12-526a4f5b087f" />
-
-<img width="964" height="980" alt="image" src="https://github.com/user-attachments/assets/1692d232-9412-4786-8912-ceae5f555704" />
-
-(Beta topograph Treatment  2)
-
 <img width="844" height="763" alt="image" src="https://github.com/user-attachments/assets/cbfd485f-a133-4250-806d-18bf78b60a5b" />
 
   <img width="952" height="971" alt="image" src="https://github.com/user-attachments/assets/f6722b9d-7ae0-470b-8cef-9826c0c6578d" />
 
 (Sigma topograph Treatment 2)
 
- <img width="975" height="900" alt="image" src="https://github.com/user-attachments/assets/d8a544ce-7e39-4c7d-87c1-96fc1953ed06" />
-
-<img width="975" height="990" alt="image" src="https://github.com/user-attachments/assets/96c00df1-9253-4baf-b769-563fd412e199" />
-
-(Gamma Topograph Treatment 2)
 
 
 
