@@ -264,11 +264,30 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
 
 
 
+<img width="1122" height="912" alt="image" src="https://github.com/user-attachments/assets/91ba50e4-b489-4332-9878-daef7ba15910" />
+(Theta Baseline)
+
+<img width="975" height="827" alt="image" src="https://github.com/user-attachments/assets/cd8c958c-4ce7-4425-b600-6fb0270089b6" />
+(Theta Treatment)
 
 
+<img width="1048" height="709" alt="image" src="https://github.com/user-attachments/assets/a8d34d90-f020-4f4a-854e-bb376dc6987e" />
+(Beta Baseline)
 
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/2b013d6b-7d75-46f1-b4bd-f18a1ecaf15f" />
+(Beta Treatment)
 
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/9365efc8-f296-4eca-978b-dc063a9d5a7c" />
+(Alpha Baseline)
 
+<img width="1067" height="730" alt="image" src="https://github.com/user-attachments/assets/3fcf73af-ad04-4c88-bbe3-b8e1ea7c256e" />
+(Alpha Treatment)
+
+<img width="1093" height="720" alt="image" src="https://github.com/user-attachments/assets/fd78631d-3e62-4fdb-953b-88d1acdcf7a5" />
+(Gamma Baseline)
+
+<img width="1054" height="733" alt="image" src="https://github.com/user-attachments/assets/a3011bdf-9dd0-4aff-a584-e4773bded188" />
+(Gamma Treatment)
 
 ### Normality testing
 After looking at the raw data, I ran both the relative band power (baseline and treatment) and the absolute band power (in dB) through the one-sample Kolmogorov-Smirnov test. To do this, I turned each 5-minute time bin into its own data point, giving me several data points instead of one. In the Absolute KS test 1, every absolute (dB) value came out parametric (normal) — Delta, Theta, Alpha, Beta, Gamma, and Sigma, along with the SMR and DTABR ratios (all Asymp. Sig. > 0.05). On the corrected relative data, re-running the Kolmogorov-Smirnov test changed which bands counted as normal: all of the relative values were parametric (Delta, Theta, Alpha, Beta) except Gamma (p < 0.001) and Sigma (p = 0.024), which were non-parametric (not bell-shaped), so those two were tested separately with a non-parametric test. Theta and Alpha were tested with independent-samples t-tests; Delta and Beta, while parametric, were also evaluated with Kruskal-Wallis for consistency with the non-parametric bands.
