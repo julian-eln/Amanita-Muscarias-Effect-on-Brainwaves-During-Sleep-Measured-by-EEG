@@ -41,8 +41,10 @@ The next major measurement was relative spectral power (how much of the total po
 <img width="975" height="604" alt="image" src="https://github.com/user-attachments/assets/56143a30-ab46-4063-97f4-731a233ec2d5" />
 
 (Baseline 2)
+
 <img width="975" height="673" alt="image" src="https://github.com/user-attachments/assets/9d8ce4cd-d302-4f9b-a129-576c149865e3" />
 (Treatment 2)
+
 ### Topographic maps
 
 *note topographic maps are highly interpolated from only four electrodes. Drawing conclusions about precise regional activity (e.g., "parietal vs. frontal lobe") with four sensors can be seen as highly speculative*
@@ -406,7 +408,11 @@ For the relative values, Alpha was significantly lower in the treatment (5.1% co
 
 ### Statistical power
 
-Due to pseudoreplicartion statistical power is not particularly indicative of anything.  Overall I got mostly sufficiently powered tests showing that theres overall a high effect size. To get the statistical power I used the effect sizes from the real recomputed data. For the non-parametric bands I used the rank-biserial r converted to P(X>Y), and for the parametric bands I used the smallest significant Cohen’s d so I wasn’t cherry-picking the biggest effect. All power calculations used α = 0.05, two-tailed, with the smaller group size (n = 18) as the conservative estimate. the required sample size per group for 80% power is just 6, which we already exceed even with pseudoreplication — the effect is so large that very few observations are needed to detect it reliably. For Gamma (r = +0.06, P(X>Y) = 0.530) the power with n = 18 per group is only 0.0497 — basically nothing, which makes sense because P(X>Y) = 0.53 is indistinguishable from a coin flip.For the parametric bands I used the weakest of the significant medium effects, SMR at d = 0.71. With the current n = 18 per group, power is 0.645 (64.5%) — underpowered relative to the 80% convention. Reaching 80% power for an effect this size would require n = 33 per group. The stronger effects  would need fewer participants, but I used the weakest one as the conservative benchmark.As before, all of these n values are for bins treated as independent samples, which is pseudoreplication. The real sample size here is one participant and one session per condition, so these power figures are best read as ‘how many sessions would be needed if the effect size held up’ rather than a formal power guarantee.
+Due to pseudoreplicartion statistical power is not particularly indicative of anything.  Overall I got mostly sufficiently powered tests showing that theres overall a high effect size. To get the statistical power I used the effect sizes from the real recomputed data. For the non-parametric bands I used the rank-biserial r converted to P(X>Y), and for the parametric bands I used the smallest significant Cohen’s d so I wasn’t cherry-picking the biggest effect. 
+
+All power calculations used α = 0.05, two-tailed, with the smaller group size (n = 18) as the conservative estimate. the required sample size per group for 80% power is just 6, which we already exceed even with pseudoreplication — the effect is so large that very few observations are needed to detect it reliably. For Gamma (r = +0.06, P(X>Y) = 0.530) the power with n = 18 per group is only 0.0497 — basically nothing, which makes sense because P(X>Y) = 0.53 is indistinguishable from a coin flip.For the parametric bands I used the weakest of the significant medium effects, SMR at d = 0.71. With the current n = 18 per group, power is 0.645 (64.5%) — underpowered relative to the 80% convention. Reaching 80% power for an effect this size would require n = 33 per group.
+
+The stronger effects  would need fewer participants, but I used the weakest one as the conservative benchmark.As before, all of these n values are for bins treated as independent samples, which is pseudoreplication. The real sample size here is one participant and one session per condition, so these power figures are best read as ‘how many sessions would be needed if the effect size held up’ rather than a formal power guarantee.
 
 
  
