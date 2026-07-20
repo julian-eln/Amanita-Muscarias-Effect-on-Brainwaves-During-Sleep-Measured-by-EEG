@@ -453,7 +453,7 @@ On the relative data, normality testing made Theta, Alpha, Delta, and Beta param
 
 ## Limitations:
 
- The Muse is a consumer headset, meaning it is not as advanced as clinician-grade EEGs and doesn't have as many sensors as even more modern (post-2014) consumer EEG systems. It only has 4 sensors, substantially fewer than the standard 10-20 EEG system described by Jasper (1957).   There are also major artifacts, like at 85 minutes, some of the spikes may be due to movement, and because I set alarms in the treatment to know when I should mark down the time certain effects started.  Due to relying on AI to clean up complex data hallucinations can occur
+ The Muse is a consumer headset, meaning it is not as advanced as clinician-grade EEGs and doesn't have as many sensors as even more modern (post-2014) consumer EEG systems. It only has 4 sensors, substantially fewer than the standard 10-20 EEG system described by Jasper (1957).   There are also major artifacts, like at 85 minutes, some of the spikes may be due to movement, and I set alarms in the treatment to know when I should mark down the time certain effects started.  Due to relying on AI to clean up complex data hallucinations can occur
 
 Another issue is that taking two doses of Amanita muscaria does not lead to getting the cleanest example of how it affects the brain once crossing the blood-brain barrier.
 
