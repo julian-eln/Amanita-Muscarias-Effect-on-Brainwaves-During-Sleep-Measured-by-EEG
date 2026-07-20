@@ -47,7 +47,8 @@ The next major measurement was relative spectral power (how much of the total po
 
 *note topographic maps are highly interpolated from only four electrodes. Drawing conclusions about precise regional activity (e.g., "parietal vs. frontal lobe") with four sensors can be seen as highly speculative*
 
- I also modeled scalp topographies of the EEG to visualize how Amanita affected the brain and which regions.  In the control Delta Topograph baseline,1 there is a clear high amount of power from delta throughout the session, with a decline only at minutes 15-25.  In contrast, in Delta topography treatment 1, there is an increase around that same period, but a decline around minutes 30-40.  While the waves are less in the Delta Topograph treatment, they are not absent, and looking at the band power seems to be at a lower level.  These findings suggest that Amanita muscaria may reduce the absolute power of delta activity while preserving its overall spatial distribution.  Another thing that's shown through these topographs is persistent activation of sigma (it was the second highest power in the treatment was sigma). 
+
+I also modeled scalp topographies of the EEG to visualize how Amanita affected the brain and which regions.  In the control Delta Topograph baseline,1 there is a clear high amount of power from delta throughout the session, with a decline only at minutes 15-25.  In contrast, in Delta topography treatment 1, there is an increase around that same period, but a decline around minutes 30-40.  While the waves are less in the Delta Topograph treatment, they are not absent, and looking at the band power seems to be at a lower level.  These findings suggest that Amanita muscaria may reduce the absolute power of delta activity while preserving its overall spatial distribution.  Another thing that's shown through these topographs is persistent activation of sigma (it was the second highest power in the treatment was sigma). 
 
 Since sigma is most associated with the second stage nonrem sleep, spikes while using gabaergic drugs Leong et al., 2022; Feinberg, 2000, and acts to inhibit regions of the brain to make sleep more stable, it makes sense that it's very active during Amanita muscaria.   It's also very active in the baseline, but in sigma topograph treatment 1, it seems to be slightly lower, but has spikes much later on than sigma topograph baseline 1.  Sigma topograph treatment 2 shows more of the story, though, with sigma dominating the waves early and sticking throughout the session, than in sigma topograph baseline 2, where by the end they are gone; earlier, they dominate in the parietal and temporal lobes, which mostly handle memory, sensory processing, and spatial awareness. In contrast, the sigma topograph treatment 2 mostly equally spread the sigma wave but seemed to increase the sigma in the frontal lobe regions, which are used for reasoning and planning, while being noticeably softer in the Parietal Lobe and temporal lobes. 
 
@@ -64,37 +65,6 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
 
  (Delta topograph Baseline 1) 
  
- <img width="975" height="610" alt="image" src="https://github.com/user-attachments/assets/065dfd28-8084-4b58-bd7b-d33400ff4752" />
-<img width="851" height="708" alt="image" src="https://github.com/user-attachments/assets/ddf00b6c-6a87-47c5-a36a-ae899fb27f44" />
-
-(Theta Topograph Baseline1)
- <img width="948" height="669" alt="image" src="https://github.com/user-attachments/assets/7f964147-41ab-4674-aaac-b0f1e8e13e75" />
-<img width="975" height="813" alt="image" src="https://github.com/user-attachments/assets/66914a2e-0ac2-4294-b532-a7cd35867057" />
-
-
- 
-(Alpha topograph Baseline 1)
- <img width="975" height="898" alt="image" src="https://github.com/user-attachments/assets/93692d0a-1a58-4722-890d-90c6e8e7e1f8" />
-
-  <img width="800" height="664" alt="image" src="https://github.com/user-attachments/assets/3e047023-d692-4ff2-8efc-261631bb68ba" />
-
-(Beta Topograph Baseline 1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -110,22 +80,6 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
 
  
 (Sigma Topograph Baseline  1)
-
-
-<img width="975" height="792" alt="image" src="https://github.com/user-attachments/assets/254dfead-4a99-4892-9115-c3dd8574a7db" />
-
-
-<img width="975" height="813" alt="image" src="https://github.com/user-attachments/assets/420bad43-0b89-4bdb-b6c3-192d4ff1ae83" />
-
-
-
-
-
-
-
-(Gamma topograph  Baseline 1)
-
-
 
 
 
@@ -434,7 +388,6 @@ I did statistical tests to determine significance using t tests for parametric v
 
 For the relative values, Alpha was significantly lower in the treatment (5.1% control vs 3.9% treatment; t = 2.37, p = .023, 95% CI of the difference 0.17–2.14 — but see the robustness note below: this alpha effect does **not** replicate when relative power is recomputed directly from the raw signal), while Theta was not significant (12.1% vs 13.4%, p = .338). The Kruskal-Wallis tests on the non-parametric bands: Delta was not significant (control 63.3% vs treatment 69.4%, χ² = 2.57, p = .109 — a non-significant trend toward more delta in the treatment); Sigma was not significant (1.7% vs 2.0%, χ² = 0.62, p = .430); Beta ranked significantly higher in the control (χ² = 4.27, p = .039), although the group means were nearly identical (6.2% vs 6.5%), so this reflects a few high-beta artifact windows inflating the treatment mean; and Gamma ranked higher in the control (11.6% vs 4.8%, χ² = 4.38, p = .036), though Muse gamma is heavily EMG/line-noise contaminated and should be read cautiously. These replace the earlier relative results (delta p = .003, alpha p = .017, sigma p < .001), which were driven by a baseline table that had not been recomputed.
 
-**Robustness note (aggregation-sensitive effects).** The three significant workbook results — Alpha (t p = .023), Beta (KW p = .039), and Gamma (KW p = .036) — were stress-tested against the raw recordings using per-epoch-relative-then-average aggregation. Recomputing relative power from raw under 24 processing pipelines (epoch length 2/4/8 s × four artifact thresholds × mean/median aggregation), none of the three bands is significant: Alpha ≈ 7.1% vs 7.0% (t p = .949), Beta ≈ 8.4% vs 8.2% (t p = .927), Gamma ≈ 5.5% vs 5.0% (t p = .670). These effects are therefore specific to the dB-averaging aggregation used in the workbook and do not appear when standard aggregation is applied to the same raw signal. The bias introduced by the dB method is not uniform: for Gamma, it shifts the treatment estimate by −38% and the baseline estimate by +41% (in opposite directions), which explains why a group difference appears in the workbook but not in the from-raw analysis. See the Methods section and the Limitations section for further discussion of the aggregation choice.
 
 
 <img width="825" height="965" alt="image" src="https://github.com/user-attachments/assets/557a1bd2-4db3-488e-8c36-6c113232644d" />
@@ -453,7 +406,7 @@ For the relative values, Alpha was significantly lower in the treatment (5.1% co
 
 ### Statistical power
 
-Due to pseudoreplicartion statistical power is not particularly indicative of anything.  Overall I got mostly sufficiently powered tests showing that theres overall a high effect size. To get the statistical power I used the effect sizes from the real recomputed data. For the non-parametric bands I used the rank-biserial r converted to P(X>Y), and for the parametric bands I used the smallest significant Cohen’s d so I wasn’t cherry-picking the biggest effect. All power calculations used α = 0.05, two-tailed, with the smaller group size (n = 18) as the conservative estimate.For Sigma (rank-biserial r = −0.95, P(X>Y) = 0.025) the required sample size per group for 80% power is just 6, which we already exceed even with pseudoreplication — the effect is so large that very few observations are needed to detect it reliably. For Gamma (r = +0.06, P(X>Y) = 0.530) the power with n = 18 per group is only 0.0497 — basically nothing, which makes sense because P(X>Y) = 0.53 is indistinguishable from a coin flip.For the parametric bands I used the weakest of the significant medium effects, SMR at d = 0.71. With the current n = 18 per group, power is 0.645 (64.5%) — underpowered relative to the 80% convention. Reaching 80% power for an effect this size would require n = 33 per group. The stronger effects  would need fewer participants, but I used the weakest one as the conservative benchmark.As before, all of these n values are for bins treated as independent samples, which is pseudoreplication. The real sample size here is one participant and one session per condition, so these power figures are best read as ‘how many sessions would be needed if the effect size held up’ rather than a formal power guarantee.
+Due to pseudoreplicartion statistical power is not particularly indicative of anything.  Overall I got mostly sufficiently powered tests showing that theres overall a high effect size. To get the statistical power I used the effect sizes from the real recomputed data. For the non-parametric bands I used the rank-biserial r converted to P(X>Y), and for the parametric bands I used the smallest significant Cohen’s d so I wasn’t cherry-picking the biggest effect. All power calculations used α = 0.05, two-tailed, with the smaller group size (n = 18) as the conservative estimate. the required sample size per group for 80% power is just 6, which we already exceed even with pseudoreplication — the effect is so large that very few observations are needed to detect it reliably. For Gamma (r = +0.06, P(X>Y) = 0.530) the power with n = 18 per group is only 0.0497 — basically nothing, which makes sense because P(X>Y) = 0.53 is indistinguishable from a coin flip.For the parametric bands I used the weakest of the significant medium effects, SMR at d = 0.71. With the current n = 18 per group, power is 0.645 (64.5%) — underpowered relative to the 80% convention. Reaching 80% power for an effect this size would require n = 33 per group. The stronger effects  would need fewer participants, but I used the weakest one as the conservative benchmark.As before, all of these n values are for bins treated as independent samples, which is pseudoreplication. The real sample size here is one participant and one session per condition, so these power figures are best read as ‘how many sessions would be needed if the effect size held up’ rather than a formal power guarantee.
 
 
  
@@ -470,7 +423,7 @@ Due to pseudoreplicartion statistical power is not particularly indicative of an
 
 
 
-(Stat power 1 — Gamma: P(X>Y)=0.530, power=0.050 at n=18 | Sigma: P(X>Y)=0.025, needs n=6 for 80% power)
+(Stat power 1 — Gamma: P(X>Y)=0.530, power=0.050 at n=18 |  needs n=6 for 80% power)
  
   
 
@@ -499,6 +452,10 @@ On the relative data, normality testing made Theta, Alpha, Delta, and Beta param
 Another issue is that taking two doses of Amanita muscaria does not lead to getting the cleanest example of how it affects the brain once crossing the blood-brain barrier.
 
 The biggest statistical flaw is pseudoreplication. Because I didn't have enough data for an ANOVA and didn't know how to properly run a time series, I ended up turning each time point into an individual data entry. This inflates N, and therefore the robustness percentage. This is pseudoreplication, and it is a major flaw in this research.
+
+Topographic Maps are extrapolated from a 4 channel EEG meaning that much of the data can have artififacts/be incomplete. 
+
+Post Hoc power is often seen as just reflecting p values however due to lack of data I decided it would be best to do post hoc power analysis 
 
 I also took Amanita during a busy day for me, so my brain was probably already at a higher power than normal.  Two datasets also only left me with a limited dataset, which makes it hard to extrapolate anything.  Amanita Muscaria's lack of consistent dosages in the wild also makes it harder to reproduce to an extent.  For the future, going up to 5-10 tests and using ethanol or some other GABAergic substance as a comparative group could be useful.  Also, changing the muse protocol from straight recording until the battery dies during sleep is probably not the best way to conduct this experiment.  The sigma theory also can't be exact due to limited data and only 4 electrodes on the Muse.   
 
