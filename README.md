@@ -301,11 +301,11 @@ After looking at the raw data, I ran both the relative band power (baseline and 
 (EEG Histogram 1 )
 
 <img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/3ddee108-7f20-45ad-ac28-c34d352d7f54" />
-<img width="975" height="703" alt="image" src="https://github.com/user-attachments/assets/bd39c6f4-f972-410e-8477-95818b5508af" />
 
 
 
- 
+ <img width="975" height="1051" alt="image" src="https://github.com/user-attachments/assets/61b82d1e-5736-4268-8060-a984ced490d9" />
+
 <img width="975" height="744" alt="image" src="https://github.com/user-attachments/assets/012378bc-a717-455a-9baf-0d7eb9b71dad" />
 
 <img width="1135" height="354" alt="image" src="https://github.com/user-attachments/assets/64a3cb32-a7f5-400b-b49b-8ee60b8be4f6" />
