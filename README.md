@@ -396,7 +396,7 @@ For the relative values, Alpha was significantly lower in the treatment (5.1% co
 
 (Independent samples test 1) 
 
- <img width="675" height="387" alt="image" src="https://github.com/user-attachments/assets/9a470db4-f6fe-473b-8f28-22d87cfd3da3" />
+<img width="1085" height="578" alt="image" src="https://github.com/user-attachments/assets/fa6a04b4-542a-4e01-90ae-9a87081c847f" />
 
 (Kruskal-Wallis — relative Sigma & Gamma)
 
