@@ -304,7 +304,6 @@ After looking at the raw data, I ran both the relative band power (baseline and 
 <img width="975" height="703" alt="image" src="https://github.com/user-attachments/assets/bd39c6f4-f972-410e-8477-95818b5508af" />
 
 
-<img width="975" height="1051" alt="image" src="https://github.com/user-attachments/assets/47ecdd8e-b9a1-4375-8070-83d4c06aed04" />
 
  
 <img width="975" height="744" alt="image" src="https://github.com/user-attachments/assets/012378bc-a717-455a-9baf-0d7eb9b71dad" />
