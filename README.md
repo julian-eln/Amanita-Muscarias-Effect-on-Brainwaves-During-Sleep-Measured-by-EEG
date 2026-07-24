@@ -301,6 +301,7 @@ After looking at the raw data, I ran both the relative band power (baseline and 
 (EEG Histogram 1 )
 
 <img width="975" height="562" alt="image" src="https://github.com/user-attachments/assets/3ddee108-7f20-45ad-ac28-c34d352d7f54" />
+<img width="975" height="515" alt="image" src="https://github.com/user-attachments/assets/cab278fe-eb34-49d9-a228-6914a3f0f43b" />
 
 
 
