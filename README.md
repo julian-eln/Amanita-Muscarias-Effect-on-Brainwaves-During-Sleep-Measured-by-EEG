@@ -249,7 +249,7 @@ Since sigma is most associated with the second stage nonrem sleep, spikes while 
 ### Normality testing
 After looking at the raw data, I ran both the relative band power (baseline and treatment) and the absolute band power (in dB) through the one-sample Kolmogorov-Smirnov test. To do this, I turned each 5-minute time bin into its own data point, giving me several data points instead of one. In the Absolute KS test 1, every absolute (dB) value came out parametric (normal) — Delta, Theta, Alpha, Beta, Gamma, and Sigma, along with the SMR and DTABR ratios (all Asymp. Sig. > 0.05). On the corrected relative data, re-running the Kolmogorov-Smirnov test changed which bands counted as normal: all of the relative values were parametric (Delta, Theta, Alpha, Beta) except Gamma (p < 0.001) and Sigma (p = 0.024), which were non-parametric (not bell-shaped), so those two were tested separately with a non-parametric test. Theta and Alpha were tested with independent-samples t-tests; Delta and Beta, while parametric, were also evaluated with Kruskal-Wallis for consistency with the non-parametric bands.
 
- <img width="975" height="288" alt="image" src="https://github.com/user-attachments/assets/94a191eb-7af6-4fd3-927d-602b245ffabc" />
+<img width="1129" height="883" alt="image" src="https://github.com/user-attachments/assets/eaf88e15-302f-435e-8a77-89566f7ee347" />
 
 
 (Absolute KS test 1) 
@@ -309,7 +309,7 @@ After looking at the raw data, I ran both the relative band power (baseline and 
  
 <img width="975" height="744" alt="image" src="https://github.com/user-attachments/assets/012378bc-a717-455a-9baf-0d7eb9b71dad" />
 
-<img width="975" height="354" alt="image" src="https://github.com/user-attachments/assets/d592e863-3af1-4892-93db-d16f5eedeed8" />
+<img width="1135" height="354" alt="image" src="https://github.com/user-attachments/assets/64a3cb32-a7f5-400b-b49b-8ee60b8be4f6" />
 
  
  
@@ -357,7 +357,7 @@ The next analysis compared the treatment to the control through bar charts. Bar 
 (Bar graph 1)
  
  
- <img width="552" height="539" alt="image" src="https://github.com/user-attachments/assets/baa1b7b4-c629-47a9-a23f-b3a00aae3494" />
+<img width="853" height="539" alt="image" src="https://github.com/user-attachments/assets/b38a402a-3c20-4258-a581-047e5f2d5357" />
 
  
 (Bar Graph 2)
